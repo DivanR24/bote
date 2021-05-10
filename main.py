@@ -25,7 +25,7 @@ async def on_message(message):
         response = random.choice(ping_list)
         await message.channel.send(response)
     if message.content == 'code':
-        await message.author.send("https://repl.it/@DivanR24/Discord-Bot#main.py")
+        await message.author.send("https://github.com/DivanR24/bote")
 
 
 
